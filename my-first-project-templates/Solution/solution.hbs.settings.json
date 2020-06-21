@@ -1,6 +1,6 @@
 {
  "SplitOn": "//##SPLIT##=========================================================================>>>",
- "ExportPath": "{{ProjectRoot}}\\\\{{FileName}}",
+ "ExportPath": "{{RootPath}}\\\\{{FileName}}",
  "FileNamePattern": "//\\[(?<FileName>[^\\[\\]]+)\\]",
  "RemoveFileName": true
 }
