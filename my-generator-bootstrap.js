@@ -65,7 +65,7 @@ loader.load(function (templates) {
         console.log(`Generating template: ${template.name}`)
 
 		// get default template model
-        let defaultModelPath = template._templatePath.substring(0, template._templatePath.length - loader._extension.length) + '.model.json';
+        let defaultModelPath = template._templatePath + '.model.json';
         
         fs.access(defaultModelPath, fs.F_OK, (err) => {
             let model = JSON.parse(JSON.stringify(globalModel));
