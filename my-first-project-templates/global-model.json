@@ -1,0 +1,18 @@
+{
+	"ProjectRoot": ".\\my-generated\\MyFirstSample",
+	"Description": "Hello .Net Core Console App",
+	"Solution": {
+		"Id": "d505c221-e1c4-425b-82e8-af2942d67594",
+		"Name": "DemoSolution"
+	},
+	"Projects": {
+		"ConsoleApp" : {
+			"Name": "MyFirstConsoleAppProject",
+			"Namespace": "Jin.Hello.ConsoleApp"
+		}
+	},
+	"Values": {
+		"FirstKey": "Hello",
+		"SecondKey": "World"
+	}
+}
